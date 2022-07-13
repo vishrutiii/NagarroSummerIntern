@@ -1,0 +1,39 @@
+body {
+    background-color: #bdc3c7;
+}
+h1{
+    color: #9b59b6;
+}
+.todo {
+    margin: 0.5rem;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    align-items: center;
+    transition: all 0.5s ease;
+  }
+  .trash-btn,
+  .complete-btn {
+    background-color: rgb(243, 171, 62);
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  .complete-btn {
+    background-color: rgb(81, 192, 81);
+  }
+  .todo-item {
+    padding: 0 0.5rem;
+  }
+  .fa-trash,
+  .fa-check {
+    pointer-events: none; /*to make the whole button as one*/
+  }
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
