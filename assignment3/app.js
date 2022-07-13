@@ -1,7 +1,6 @@
 const todoInput = document.querySelector(".todo-input ");
 const todoButton = document.querySelector(".todo-button ");
 const todoList = document.querySelector(".todo-list "); 
-const filterOption = document.querySelector(".filter-todo");
 const message = document.querySelector(".message");
 
 todoButton.addEventListener('click', addTodo);
@@ -19,7 +18,6 @@ function addTodo(event) {
     completedButton.innerHTML = '<i class= "fas fa-check"></i>';
     completedButton.classList.add("complete-btn");
     todoDiv.appendChild(completedButton);
-    //trash mark
     const trashButton = document.createElement("button");
     trashButton.innerHTML = '<i class= "fas fa-trash"></i>';
     trashButton.classList.add("trash-btn");

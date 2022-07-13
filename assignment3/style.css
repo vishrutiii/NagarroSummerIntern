@@ -16,7 +16,7 @@ h1{
   }
   .trash-btn,
   .complete-btn {
-    background-color: rgb(243, 171, 62);
+    background-color: rgb(0, 0, 0);
     color: white;
     font-size: 1rem;
     padding: 1rem;
@@ -31,7 +31,7 @@ h1{
   }
   .fa-trash,
   .fa-check {
-    pointer-events: none; /*to make the whole button as one*/
+    pointer-events: none;
   }
   .completed {
     text-decoration: line-through;
