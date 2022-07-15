@@ -1,0 +1,21 @@
+#box {
+    background-color: beige;
+    height: 300px;
+    width: 700px;
+    visibility: hidden;
+}
+
+body{
+    background-color: lightcyan;
+}
+h3 {
+    margin-left: 15px;
+}
+.head {
+    align-items: center;
+    display: flex;
+    justify-content: space-between
+}
+#box.show{
+    visibility: visible;
+}
