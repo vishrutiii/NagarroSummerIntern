@@ -1,0 +1,29 @@
+body{
+    background-image:linear-gradient(#f2f2f2,#bdb8b8, #929191);
+    /* backdrop-filter: lighten(#f2f2f2, 50%); */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+h1{
+    text-align: center;
+}
+
+.one, .two, .three{
+    text-align: center;
+}
+
+.three , .two{
+    margin-top: 30px;
+}
+
+#btn{
+    background-color: #333; /* Green */
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
