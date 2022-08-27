@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Inter:wght@500&display=swap');
+img{
+    height: 180px;
+    padding: 7px;
+}
+body{
+    background-color: rgb(252, 251, 250);
+    background-image: url("https://media.istockphoto.com/vectors/vector-set-of-design-templates-and-elements-for-ecommerce-in-trendy-vector-id1096460950?k=20&m=1096460950&s=612x612&w=0&h=_yO8WlG0MNhAEk_SxjH1gTlMIqGA2lws_K09XnBp-7k=");
+}
+.heading{
+    margin-top: 2%;
+    font-family: 'Inter', sans-serif;
+    color: #483838;
+}
+
+.validated-form{
+    background-color: #D6EFED;
+    margin-top: 4%;
+    text-align: center;
+    width: 50%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #D6EFED;
+    border-radius: 15px;
+}
+.login-div{
+    margin-top: 5%;
+}
+.form-label{
+    margin-top: 2%;
+    font-family: 'Inter', sans-serif;
+
+}
+.card{
+    height: 360px;
+    border-radius: 15px;
+    margin: 15px;
+}
+.footer{
+    margin-top: 2% !important;
+}
+.btn-login{
+    width: 80%;
+    height: 45px;
+    background-color: #293462;
+    border: #293462;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 3%;
+
+}
+.btn-login:hover{
+    font-weight: bold;
+    width: 80%;
+    height: 45px;
+    background-color: #1F4690;
+    border: #1F4690;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0,0.5);
+    color: white;
+}
+
+.add-btn{
+    margin-top: 2%;
+    width: 80%;
+    height: 45px;
+    background-color: #293462;
+    border: #293462;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 2% !important;
+}
+
+.add-btn:hover{
+    font-weight: bold;
+    width: 80%;
+    height: 45px;
+    background-color: #1F4690;
+    border: #CA4E79;
+    font-size: 23px;
+
+}
+
+.back-btn{
+    margin-left:2%;
+    font-size: 25px;
+    margin-top: 2%;
+    color: #293462;
+
+}
+
+.price{
+    border: 1px solid #CA4E79;
+    display: inline-block;
+    padding: 5px;
+}
+.review-div{
+    margin-top: 5%;
+    font-size: 20px;
+}
+.buy-btn{
+    margin-top:3%;
+    width: 50%;
+}
+.btns{
+    margin-top: 25vh;
+}

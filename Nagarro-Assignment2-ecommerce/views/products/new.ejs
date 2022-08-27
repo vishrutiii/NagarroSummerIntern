@@ -1,0 +1,65 @@
+<%- include("../partials/header") %> <%- include("../partials/navbar") %>
+
+<div class="container">
+  <form class="validated-form" action="/products" method="POST" novalidate>
+    <div class="mb-3">
+      <label for="name" class="form-label">Name </label>
+      <input
+        type="text"
+        class="form-control"
+        id="name"
+        placeholder="Enter the name of product "
+        name="product[name]"
+        required
+      />
+      <div class="valid-feedback">Looks good!</div>
+    </div>
+    <div class="mb-3">
+      <label for="price" class="form-label">Price(in Rs) </label>
+      <input
+        type="number"
+        class="form-control"
+        id="price"
+        placeholder="Enter the price "
+        name="product[price]"
+        required
+      />
+      <div class="valid-feedback">
+        nice!
+      </div>
+    </div>
+    <div>
+      <label for="desc" class="form-label">Description </label>
+      <textarea
+        id="desc"
+        cols="30"
+        rows="6"
+        class="form-control"
+        placeholder="Enter description of the product "
+        name="product[desc]"
+        required
+      ></textarea>
+      <div class="valid-feedback">
+        Good!
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="image" class="form-label">Image URL </label>
+      <input
+        type="text"
+        class="form-control"
+        id="image"
+        placeholder="Enter the image URL "
+        name="product[image]"
+        required
+      />
+      <div class="valid-feedback">
+        nice
+      </div>
+    </div>
+    <br />
+
+    <button type="submit" class="btn add-btn btn-primary">Add</button>
+  </form>
+</div>
+<%- include("../partials/footer") %>
